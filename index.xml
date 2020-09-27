@@ -6,14 +6,25 @@
     <description>Recent content on Margey Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 26 Sep 2020 17:34:35 +0900</lastBuildDate><atom:link href="https://margey-1220.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2020 10:40:02 +0900</lastBuildDate><atom:link href="https://margey-1220.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://margey-1220.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 26 Sep 2020 17:34:35 +0900</pubDate>
+      <title>GitHub Pages &#43; Hugo で個人サイトを作った話</title>
+      <link>https://margey-1220.github.io/posts/20200927/</link>
+      <pubDate>Sun, 27 Sep 2020 10:40:02 +0900</pubDate>
       
-      <guid>https://margey-1220.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://margey-1220.github.io/posts/20200927/</guid>
+      <description>本サイトはHugoで生成したサイトをGitHub Pagesにホストする形で運営しています。 これが初投稿になリます。 本記事では、簡単な自己紹介と本サイトの作りかたについてお話しします。
+自己紹介 僕の名前はマージーです。
+趣味はゲームとアニメで、深みのあるストーリーのRPGやアニメが大好物です。 一番好きなゲームはキングダムハーツシリーズで、 一番好きなアニメは鋼の錬金術師です&amp;hellip;かな&amp;hellip;NARUTO&amp;hellip;リゼロ&amp;hellip;いや絞り込めないな&amp;hellip;。 最近は脱出ゲームにもハマってます。
+忙しい、時間が足りない
+YouTubeでゲーム実況をしている「ドズぼん」のファン（ドズ主）をしています。 最近のドズぼんは、主にフォートナイトやマイクラをプレイしていて、&amp;ldquo;にわか大事に&amp;quot;をモットーに面白いトーク中心の動画を毎日3本以上投稿していて毎日笑いが絶えません。お勧めします。
+本サイトでは、ブログを投稿したり、ゲームを作って載せたりしたいなと考えています。 よろしくお願いします。
+さて、この想いは未来に繋がるのか&amp;hellip;&amp;hellip;。
+GitHub Pages + Hugo で本サイトを作成した話 GitHub PagesとHugoを使って、本サイトを開設しました。
+ GitHub Pagesとは、GitHubアカウントを持つ人が誰でも簡単に公開サイトを作れる仕組みです。 Hugoとは、静的サイトジェネレータといって、文章を書いてコマンドを打つと、いい感じのサイトを生成してくれるツールです。  本サイトは、Hugoでサイトを作り、GitHub Pagesで公開しています。 まくまくさんのサイトを参考にしました。
+手順は簡単です。まず、Hugoで静的サイトを生成します。
+ Hugoをインストールする。MacでHomebrewがあるなら &amp;ldquo;brew install hugo&amp;rdquo; &amp;ldquo;hugo new site &amp;lt;site_name&amp;gt;&amp;rdquo; で新規サイトを作成する 好きなHugoのThemeをダウンロードする &amp;ldquo;hugo new /post/sample.md&amp;rdquo; で新規Webページを作成 &amp;ldquo;./config.toml&amp;rdquo; を編集し、タイトルやbaseURLを変更。baseURLは公開サイトのトップページのURLにする hugo -D でサイトをビルドすると、&amp;quot;./public/&amp;ldquo;ディレクトリにサイトがジェネレートされる  次にジェネレートしたサイトを公開します。
+ GitHubアカウントを作る 新規リポジトリ&amp;rdquo;&amp;lt;username&amp;gt;.github.io&amp;ldquo;を作成する 作成したリポジトリをクローンする 生成したサイト&amp;rdquo;public&amp;ldquo;ディレクトリの中身をクローンしたディレクトリに反映する git add . git commit -m &amp;quot;first commit&amp;quot; git push -u origin master  これで公開されたはずなので、https://&amp;lt;username&amp;gt;.</description>
     </item>
     
   </channel>
